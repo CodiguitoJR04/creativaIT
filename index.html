@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="pagina web que promociona el desarrollo de aplicaciones moviles android e iOS así como aplicaciones híbridas en caso necesario">
+    <meta name="keywords" csontent="desarrollo movil,creacion de app">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2e17ce8de6.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
+    <title>creativaIT - Inicio</title>
+</head>
+
+<body onload="animacionCarga();">
+    <header id="1">
+        <div class="header">
+            <!-- <img class="img_header" src="assets/img/Shutterstock_2212871135.png" alt=""> -->
+            <div class="subcontainer-header">
+                <div class="container-icon-logo" id="menu">
+                    <div class="container-title-pag">
+                        <div class="subcontainer-title-pag">
+                            <img id="title"
+                                src="assets/img/WhatsApp_Image_2023-09-08_at_5.40.57_PM-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div class="container-separator"></div>
+                    <div class="container-icon">
+                        <div class="subcontainer-icon">
+                            <div class="content-btn" id="btn">
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-nav active" id="nav">
+                    <div class="container-contact" id="nav_uno">
+                        <div class="subcontainer-contact">
+                            <div class="container-links">
+                                <h3>Contactanos</h3>
+                                <div class="container-emal">
+                                    <h3><a href="gmail.com">creativaIT@crea.com.mx</a></h3>
+                                </div>
+                                <div class="container-redes">
+                                    <h3><span class="icon-redes"><img src="assets/img/facebook.png" alt=""></span><a
+                                            href="https://www.facebook.com">creativaIT</a></h3>
+                                    <h3><span class="icon-redes"><img src="assets/img/instagram.png" alt=""></span><a
+                                            href="instagram.com">creativaIT</a></h3>
+                                    <h3><span class="icon-redes"><img src="assets/img/telegram.png" alt=""></span><a
+                                            href="telegram.com">creativaIT</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-nav-url" id="nav_dos">
+                        <div class="content-nav">
+                            <h4 class="description-nav">Navegación</h4>
+                            <nav class="nav">
+                                <ul>
+                                    <li onclick="cerrarLamina();"><a href="#1">-Inicio</a></li>
+                                    <li onclick="cerrarLamina();"><a href="#2">-¿Qúe hacemos?</a></li>
+                                    <li onclick="cerrarLamina();"><a href="#3">-Nosotros</a></li>
+                                    <li onclick="cerrarLamina();"><a href="#4">-Socios</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-items-header">
+                    <div class="content-subtitle">
+                        <h2 id="maquina"><span class="operador">&lt;</span> <span class="verde">Hacemos realidad
+                            </span><span class="rojo">tus proyectos</span> <span class="amarillo"> difruta la
+                                experiencia.</span><span class="operador">/&gt;</span></h2>
+                    </div>
+                    <div class="container-items-h">
+                        <div class="subcontainer-items-header">
+                            <div class="items mause-move">
+                                <div class="content-item">
+                                    <div class="icon-item">
+                                        <div class="img" id="hacemos"></div>
+                                    </div>
+                                    <div class="tex">
+                                        <p class="texth"><a href="#2">¿Qué hacemos?</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items mause-move">
+                                <div class="content-item">
+                                    <div class="icon-item">
+                                        <div class="img" id="nosotros"></div>
+                                    </div>
+                                    <div class="tex">
+                                        <p class="texth"><a href="#3">Nosotros</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-scroll">
+                    <div class="subcontainer-scroll">
+                        <div class="scroll" id="scroll" onclick="moverWeb();"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-hacemos" id="2">
+            <div class="container-hacemos">
+                <div class="subcontainer-hacemos">
+                    <div class="container-title-hacemos">
+                        <h2>¿QUÉ HACEMOS?</h2>
+                        <p>Un poco de nosotros</p>
+                    </div>
+                    <div class="container-item-main">
+                        <div class="subcontainer-item-main">
+                            <div class="content-items-main">
+                                <div class="subcontainer-items-main">
+                                    <div class="item-main">
+                                        <div class="content-img-main">
+                                            <div class="img" id="lottie-container"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="cont-text-main">
+                                            <p class="textn">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                                Blanditiis, cum nam veritatis quidem recusandae ipsam optio earum quae
+                                                corrupti ipsum? Molestias soluta, dolores magni ipsa vero error aperiam
+                                                cupiditate accusantium.</p>
+                                        </div>
+                                        <div class="ttitle-card">
+                                            <h3 style="text-align: center;">Idea</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-items-main">
+                                <div class="subcontainer-items-main">
+                                    <div class="item-main">
+                                        <div class="content-img-main">
+                                            <div class="img" id="animacion-svg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="cont-text-main">
+                                            <p class="textn">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Veniam voluptatibus fuga praesentium sunt nesciunt neque recusandae
+                                                similique repellendus dolor debitis quas facilis doloremque architecto
+                                                in saepe, eum velit assumenda optio?</p>
+                                        </div>
+                                        <div class="ttitle-card">
+                                            <h3 style="text-align: center;">Diseño</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-items-main">
+                                <div class="subcontainer-items-main">
+                                    <div class="item-main">
+                                        <div class="content-img-main">
+                                            <div class="img" id="svg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="text">
+                                        <div class="cont-text-main">
+                                            <p class="textn">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Nisi, fugiat! Recusandae odio odit, totam dolorum libero beatae
+                                                molestiae repellendus nam eveniet quod itaque vitae voluptate in fugit
+                                                ullam adipisci perspiciatis?</p>
+                                        </div>
+                                        <div class="ttitle-card">
+                                            <h3 style="text-align: center;">Creación</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="nosotros-main" id="3">
+            <div class="container-nosotros">
+                <div class="subcontainer-nosotros">
+                    <div class="content-title">
+                        <h2>Nosotros</h2>
+                        <p>Acerca de nosotros</p>
+                    </div>
+                    <div class="container-items">
+                        <div class="subcontainer-items">
+                            <div class="content-item-nosotros text-socio">
+                                <div class="title-item">
+                                    <h3>Historia</h3>
+                                </div>
+                                <div class="description-items">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum
+                                        deleniti non in laudantium cumque, optio saepe corrupti odit nihil molestias
+                                        facere nesciunt quis laborum tenetur aliquid, molestiae beatae eius!</p>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quibusdam,
+                                        amet eius molestiae beatae unde inventore pariatur expedita placeat? Iusto
+                                        labore laboriosam nostrum aspernatur rerum quod ea neque iste iure.</p>
+                                </div>
+                            </div>
+                            <div class="content-item-nosotros item-nosotrosA">
+                                <div class="content-img">
+                                    <div class="subcontent-item">
+                                        <div class="img" id="svg-phone"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-item-nosotros text-iz">
+                                <div class="title-item">
+                                    <h3>Skills</h3>
+                                </div>
+                                <div class="description-items">
+                                    <ul>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+                                        <li>-lorem opjmdaljdkajdl djlaksj</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-item-technology">
+                        <div class="subcontainer-item-technology">
+                            <div class="cotent-item-technology">
+                                <div class="subcontent-item-technology">
+                                    <div class="img" id="android"></div>
+                                </div>
+                            </div>
+                            <div class="cotent-item-technology">
+                                <div class="subcontent-item-technology">
+                                    <div class="img" id="aws"></div>
+                                </div>
+                            </div>
+                            <div class="cotent-item-technology">
+                                <div class="subcontent-item-technology">
+                                    <div class="img" id="java"></div>
+                                </div>
+                            </div>
+                            <div class="cotent-item-technology">
+                                <div class="subcontent-item-technology">
+                                    <img class="img" src="assets/img/sql-svgrepo-com.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="socios" id="4">
+            <div class="container-socios">
+                <div class="subcontainer-socios">
+                    <h2>Socios</h2>
+                    <div class="content-socios">
+                        <div class="cont-socios">
+                            <div class="subcontent-socios"><img src="" alt=""></div>
+                        </div>
+                        <div class="cont-socios">
+                            <div class="subcontent-socios"><img src="" alt=""></div>
+                        </div>
+                        <div class="cont-socios">
+                            <div class="subcontent-socios"><img src="" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="/assets/js/js_optimzado.js"></script>
+</body>
+
+</html>
